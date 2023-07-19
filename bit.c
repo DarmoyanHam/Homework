@@ -4,7 +4,7 @@ int main()
 {
     int a;
     scanf("%i", &a);
-    int pos = 8; 
+    int pos = 32; 
     if((a & pos) == 0)
     {
         a = a ^ pos;
